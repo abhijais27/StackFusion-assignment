@@ -1,0 +1,43 @@
+
+.App {
+  align-items: center;
+  
+}
+.form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(198, 164, 176), rgb(182, 167, 163));
+  /* background-image: linear-gradient(-20deg, #d9dada 0%, #809e9c 100%); */
+  height: 90vh;
+  box-shadow: 5px 5px 8px , 10px 10px 8px , 15px 15px 8px ;
+}
+
+.label {
+text-align: center;
+font-size: larger;
+  height: 2rem;
+}
+Input {
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 7px;
+}
+.btn {
+  
+  height: 5rem;
+  width: 8rem;
+  color: #1cc49d;
+  background-color: #1b2f31;
+  border-radius: 60px;
+  font-size: large;
+  font-weight: 600;
+  border: 1px solid rgba(58, 48, 48, 0.6);
+  cursor: pointer;
+}
+
